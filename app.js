@@ -3,37 +3,37 @@ const works = [
   {
     img: "assets/work-plaqad.jpg",
     title: "Placad",
-    link: "https://crenet.netlify.app/",
+    link: "https://plaqad.com/",
   },
   {
     img: "assets/work-alat.jpg",
     title: "Alat Foundation",
-    link: "https://crenet.netlify.app/",
+    link: "http://alatfoundation.com.ng/",
   },
   {
     img: "assets/work-insw.jpg",
-    title: "Interswitch Recreate",
-    link: "https://crenet.netlify.app/",
+    title: "Interswitch Recreation",
+    link: "https://interswitch.netlify.app/",
   },
   {
     img: "assets/work-pss.jpg",
     title: "PSS",
-    link: "https://crenet.netlify.app/",
+    link: "http://packetswitchings.com/",
   },
   {
     img: "assets/work-crenet.jpg",
-    title: "Crenet Recreate",
+    title: "Crenet Recreation",
     link: "https://crenet.netlify.app/",
   },
   {
     img: "assets/work-udemy.jpg",
     title: "Udemy",
-    link: "https://crenet.netlify.app/",
+    link: "#",
   },
   {
     img: "assets/work-react.jpg",
     title: "React Menu App",
-    link: "https://crenet.netlify.app/",
+    link: "https://plaqad.com/",
   },
   {
     img: "assets/work-react-1.jpg",
