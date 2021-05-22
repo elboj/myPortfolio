@@ -112,7 +112,7 @@ let overlay = document.querySelector(".overlay");
 
 // Get the offset position of the navbar
 let sticky = navbar.offsetTop;
-console.log(sticky);
+// console.log(sticky);
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
@@ -126,3 +126,23 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//SAMPLE DATA FETCH FOR BTC
+
+// const dataFetch = async () => {
+//   try {
+//     const data = await fetch("https://api.cryptonator.com/api/ticker/btc-usd");
+//     const result = await data.json();
+//     const btc = await result.ticker.price;
+
+//     console.log(result);
+//     console.log(`Current BTC Price is ${btc}`);
+
+//     const converter = 20 * btc;
+//     console.log(`20 BTC equals ${converter} USD`);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// dataFetch();
