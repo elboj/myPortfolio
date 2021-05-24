@@ -1,5 +1,6 @@
 //DATA FOR PORTFOLIO
 import { works } from "./data.js";
+import { variables } from "./variables.js";
 // console.log(works);
 /**
  * REFACTORING CREATING A NEW dada.js file to hold all our array data for portfolio
@@ -10,6 +11,11 @@ import { works } from "./data.js";
 /**
  * Toggle functionality for main menu
  */
+const nameOrder = {
+  name: "tobi",
+  class: "js3",
+};
+console.log({ ...nameOrder });
 
 const toggler = document.querySelector(".toggle");
 const toggler1 = document.querySelector(".toggle1");
@@ -71,6 +77,7 @@ const testing = () => {
     const bgHolder = document.createElement("article");
     const navRedirect = document.createElement("a");
     const p = document.createElement("p");
+    const tags = document.createElement("p");
     const i = document.createElement("i");
 
     img.classList.add("img");
@@ -89,10 +96,13 @@ const testing = () => {
     main.appendChild(flexItem);
 
     p.textContent = items.title;
+    tags.textContent = items.tags;
     flexItem.appendChild(p);
+    flexItem.appendChild(tags);
     flexItem.append(i);
 
     p.classList.add("caption");
+    tags.classList.add("tags-caption");
     i.classList.add("fa", "fa-long-arrow-right");
   }
 };

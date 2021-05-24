@@ -310,6 +310,14 @@ nav {
   color: white;
 }
 
+.tags-caption {
+  position: relative;
+  bottom: 75px;
+  font-size: 0.7rem;
+  color: white;
+  font-style: italic;
+}
+
 .ni {
   width: 100%;
 }
@@ -360,243 +368,6 @@ nav {
 
 #drive_text_desc {
   margin-top: 1rem;
-}
-
-#skillset_section {
-  background: #f8f8f8;
-  margin-top: 5.5rem;
-}
-
-#skillset_holder {
-  padding: 4rem 1.5rem;
-}
-
-#skillset_heading {
-  font-size: 2rem;
-  text-align: center;
-  margin: 1.5rem;
-}
-
-#skillset_desc {
-  text-align: center;
-}
-
-#skillset_flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 2.5rem;
-}
-
-.skillset_item {
-  margin: 1rem 0;
-}
-
-.skillset_item .item_heading {
-  font-size: 1.3rem;
-  font-style: italic;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-.skillset_item .item {
-  font-size: 0.9rem;
-  border-top: none;
-  border-bottom: 1px solid #333333;
-  padding: 10px 0;
-}
-
-.process_banner {
-  width: 100%;
-}
-
-.process_img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#process_section_holder {
-  margin-top: 2.5rem;
-}
-
-#process_heading {
-  font-size: 2rem;
-  text-align: center;
-}
-
-#process_desc {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-#process_flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#process_flex .process_flex_items {
-  margin-top: 2rem;
-}
-
-.process_flex_items p:nth-child(1) {
-  color: #cccccc;
-  font-size: 1.6rem;
-  font-weight: 500;
-  padding-bottom: 0.2rem;
-}
-
-.process_flex_items p:nth-child(2) {
-  font-size: 1.2rem;
-  font-weight: 500;
-  padding-bottom: 0.7rem;
-}
-
-#process_banner_bottom {
-  margin-top: 2.5rem;
-}
-
-#people_section_holder {
-  margin-top: 2.5rem;
-}
-
-#people_section_holder h3 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-#people_section_holder #people_desc {
-  text-align: center;
-}
-
-.people_flex {
-  margin-top: 3.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.people_flex_items {
-  margin-top: 1.5rem;
-  width: 100%;
-  height: auto;
-  background: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.img-holder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 4;
-}
-
-.team {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.txt_holder {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  padding-left: 2rem;
-}
-
-.rounded {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: absolute;
-  border: 2px solid white;
-  z-index: 6;
-  display: none;
-}
-
-.people_flex_items:hover .team {
-  width: 300px;
-  height: 300px;
-  border-radius: 0;
-  opacity: 0.4;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: 0.08s linear;
-  transition: 0.08s linear;
-}
-
-.people_flex_items:hover .img-holder {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.52)), to(rgba(117, 19, 93, 0.73)));
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
-  width: 300px;
-  height: 300px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.people_flex_items:hover .txt_holder {
-  margin-top: -2.8rem;
-  color: white;
-  z-index: 7;
-}
-
-.people_flex_items:hover .rounded {
-  display: block;
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
-  margin-top: 13px;
-}
-
-#client_flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.client_img {
-  max-width: 100%;
-  height: auto;
-  padding: 0 2rem;
 }
 
 #contact_section {
@@ -762,7 +533,7 @@ footer {
   p {
     font-size: 0.9rem;
   }
-  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #process_section_holder, #people_section_holder, #contact_section_holder, #footer_holder {
+  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #contact_section_holder, #footer_holder {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
   }
@@ -825,7 +596,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #process_section_holder, #people_section_holder, #contact_section_holder, #footer_holder {
+  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #contact_section_holder, #footer_holder {
     padding-left: 4.5rem !important;
     padding-right: 4.5rem !important;
   }
@@ -904,7 +675,7 @@ footer {
   p {
     font-size: 1rem;
   }
-  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #process_section_holder, #people_section_holder, #contact_section_holder, #footer_holder {
+  .default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #contact_section_holder, #footer_holder {
     padding-left: 5.5rem !important;
     padding-right: 5.5rem !important;
   }
@@ -946,7 +717,7 @@ footer {
   transition: 0.3s linear;
 }
 
-.default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #process_section_holder, #people_section_holder, #contact_section_holder, #footer_holder {
+.default-padding, .main_text_holder, #portfolio_section_holder, #drive_section_holder, #contact_section_holder, #footer_holder {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
